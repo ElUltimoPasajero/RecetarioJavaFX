@@ -1,0 +1,28 @@
+.ventana{
+    -fx-background-image: url("img/fondo.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.transparente{
+}
+#titulo{
+    -fx-font-size: 30px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+}
+
+.info{
+    -fx-background-color: green;
+    -fx-padding: 5px 20px;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 10px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: red;
+}
